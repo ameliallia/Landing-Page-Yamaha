@@ -1,0 +1,109 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link:hover {
+  font-weight: bolder;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%,
+}
+#header {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+#header-img {
+  width: 6rem;
+  margin-left: 1rem;
+}
+#nav-bar {
+  display: flex;
+}
+#nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+#nav-bar li {
+  list-style: none;
+}
+.nav-link {
+  margin: 0 3rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+#form {
+  text-align: center;
+  margin: 2rem 0;
+}
+#email {
+  padding: 0.3rem;
+  margin: 1rem 0 0 0;
+  width: 18rem;
+}
+#submit {
+  display: flex;
+  width: 6rem;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  /*background-color: #663399;*/
+  border-radius: 0.5rem;
+}
+
+
+#iframe-video {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 3rem;
+}
+#video {
+  width: 40rem;
+}
+#features {
+  max-width: 80rem;
+  margin: 4rem auto;
+}
+#ft-ul {
+  margin: auto 3rem;
+}
+#ft-ul p {
+  font-size: 1.5rem;
+  color: #663399;
+  font-weight: bolder;
+  font-family: Tahoma, sans-serif;
+}
+#ft-ul li {
+  margin: 0 0 1.5rem 0;
+  list-style: none;
+}
+#Pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: min-content;
+  margin: 0 auto;
+}
+#Pricing img {
+  width: 30rem;
+}
+
+@media (max-width: 768px) {
+  #header-img {
+    width: 5rem;
+    margin-left: 0.5rem;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+  }
+  #video {
+   width: 30rem;
+  }
+}
