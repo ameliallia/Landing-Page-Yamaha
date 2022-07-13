@@ -96,11 +96,11 @@ html {
 
 @media (max-width: 768px) {
   #header-img {
-    width: 5rem;
+    width: 4rem;
     margin-left: 0.5rem;
   }
   .nav-link {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin: 0 0.5rem;
   }
   #video {
