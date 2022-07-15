@@ -5,6 +5,7 @@
 
 .nav-link:hover {
   font-weight: bolder;
+  font-size: 1.4rem;
 }
 
 html {
